@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Galería Dinámica</title>
+    <link rel="stylesheet" href="/tp3/css/estilo.css">
+    
 </head>
-
 <body>
-   
+    <h1 class="titulo">Galeria de imágenes</h1>    
+    
+    <div class="gallery-container">
+        <div class="gallery" id="gallery">
+            <img src="/tp3/img/img1.webp" alt="Imagen 1" class="gallery-item">
+            <img src="/tp3/img/img.avif" alt="Imagen 2" class="gallery-item">
+            <img src="/tp3/img/img3.jpg" alt="Imagen 3" class="gallery-item">
+        </div>
+    </div>
+
+    
+    <div class="music-player-container">
+    
+        <button id="toggle-theme">Modo Oscuro/Claro</button>
+        
+        <audio src="musica_italiana.mp3" id="background-music" controls loop>
+        </audio>
+        
+    </div>
+    
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="index.js"></script>
 </body>
-    <link rel="stylesheet" href="index.js">
 </html>
