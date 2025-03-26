@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería Dinámica</title>
-    <link rel="stylesheet" href="/tp3/css/estilo.css">
-    
+    <title>Galería Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    <h1 class="titulo">Galeria de imágenes</h1>    
-    
-    <div class="gallery-container">
-        <div class="gallery" id="gallery">
-            <img src="/tp3/img/img1.webp" alt="Imagen 1" class="gallery-item">
-            <img src="/tp3/img/img.avif" alt="Imagen 2" class="gallery-item">
-            <img src="/tp3/img/img3.jpg" alt="Imagen 3" class="gallery-item">
+    <div class="container">
+        <h1 class="titulo">Galería de imágenes</h1>
+
+        <div class="gallery-container">
+            <div class="gallery" id="gallery">
+                <img src="img/img1.webp" alt="Escena Urbana" class="gallery-item">
+                <img src="img/img.avif" alt="Paisaje Natural" class="gallery-item">
+                <img src="img/img3.jpg" alt="Arquitectura Moderna" class="gallery-item">
+            </div>
+        </div>
+
+        <div class="music-player-container">
+            <button id="toggle-theme">Cambiar Modo</button>
+            <audio id="background-music" controls loop>
+                <source src="/mero_mero.mp3" type="audio/mpeg">
+            </audio>
         </div>
     </div>
 
-    
-    <div class="music-player-container">
-    
-        <button id="toggle-theme">Modo Oscuro/Claro</button>
-        
-        <audio src="musica_italiana.mp3" id="background-music" controls loop>
-        </audio>
-        
-    </div>
-    
     <div id="modal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="modal-img">
+        <img class="modal-content" id="modal-img" alt="Imagen ampliada">
     </div>
 
     <script src="index.js"></script>

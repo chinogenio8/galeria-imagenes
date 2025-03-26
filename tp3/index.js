@@ -1,4 +1,4 @@
-// Gallery Interactions
+// interacciones de la galeria
 const gallery = document.getElementById('gallery');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
@@ -6,7 +6,7 @@ const closeBtn = document.querySelector('.close');
 const toggleThemeBtn = document.getElementById('toggle-theme');
 const backgroundMusic = document.getElementById('background-music');
 
-// Image Click Modal
+// imagen click modal
 gallery.addEventListener('click', (e) => {
     if (e.target.classList.contains('gallery-item')) {
         modal.style.display = 'flex';
@@ -14,30 +14,30 @@ gallery.addEventListener('click', (e) => {
     }
 });
 
-// Close Modal
+// clase modal
 closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
 });
 
-// Close Modal when clicking outside
+// Clase Modal cuando se clickea afuera
 modal.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.style.display = 'none';
     }
 });
 
-// Theme Toggle
+// Cambiar Tema
 toggleThemeBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
 });
 
-// Persistent Theme
+// Tema prederteminado
 if (localStorage.getItem('theme') === 'dark') {
     document.body.classList.add('dark-mode');
 }
 
-// Automatic Carousel
+//  Carrusel automatico
 function carousel() {
     const images = document.querySelectorAll('.gallery-item');
     images.forEach((img, i) => {
