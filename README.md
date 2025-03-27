@@ -7,4 +7,5 @@ Hecho con:
   - CSS
   - JS
 
-![Uploading image.png…]()
+
+![Uploading imagen proyecto.png…]()
