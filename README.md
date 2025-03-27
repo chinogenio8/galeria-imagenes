@@ -6,3 +6,8 @@ Hecho con:
   - HTML
   - CSS
   - JS
+
+como se usa:
+- Descargar Carpeta
+- Abrirla en el visual studio
+- Abrir index.html en el navegador
