@@ -6,6 +6,3 @@ Hecho con:
   - HTML
   - CSS
   - JS
-
-
-![Uploading imagen proyecto.png…]()
