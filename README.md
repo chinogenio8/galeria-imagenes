@@ -1,6 +1,6 @@
 # Galería de Imágenes Interactiva
 
-Este proyecto es una galería de imágenes web diseñada para ofrecer una experiencia de visualización fluida y sin interrupciones. Los usuarios pueden explorar las imágenes de forma continua, sin necesidad de realizar clics individuales para ver cada una. Además, la página incluye funcionalidades para personalizar la experiencia del usuario:
+Este proyecto es una galería de imágenes web diseñada para ofrecer una experiencia de visualización fluida. Los usuarios pueden explorar las imágenes de forma continua, sin necesidad de realizar clics individuales para ver cada una. Además, la página incluye funcionalidades para personalizar la experiencia del usuario:
 
 * **Modo Oscuro/Claro:** Permite alternar entre un tema visual claro y uno oscuro, adaptándose a las preferencias del usuario y mejorando la visualización en diferentes entornos.
 * **Reproducción de Música:** Ofrece la opción de reproducir una canción de fondo, creando un ambiente más inmersivo mientras se exploran las imágenes.
